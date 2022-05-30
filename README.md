@@ -23,7 +23,8 @@ Required data to be downloaded to the ./data folder.  **This will be catered for
 * [title.episode](https://datasets.imdbws.com/title.episode.tsv.gz)
 * [title.principals](https://datasets.imdbws.com/title.principals.tsv.gz)
 * [title.ratings](https://datasets.imdbws.com/title.ratings.tsv.gz)
-* 
+
+<hr>
 ##  Data Exploration
 ### Jupyter
 Notebook ./notebooks/explorer.ipynb
@@ -31,6 +32,7 @@ The notebook opens all (pre-downloaded) files from the ./data folder, loads to a
 > Only the below data-sets will be required for this project:
 > title.rating + title.basics
 
+<hr>
 ## Classes
 The below classes are provided:
 ### MovieData
@@ -48,5 +50,9 @@ This class extends MovieData.  Functionality is added to rank the movies based o
 
 #### Methods
 
+<hr>
+## Execution
 
+<hr>
+## Execution: Jupyter
 
