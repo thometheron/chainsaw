@@ -1,5 +1,7 @@
 # Project Chainsaw - Top Movies
+
 ## Overview
+
 ### Why the chainsaw? 
 This project_name was suggested by gitlab.  
 This (chainsaw) operator was going to have some fun with a chainsaw and some rogue trees next to the fence today.
@@ -25,16 +27,21 @@ Required data to be downloaded to the ./data folder.  **This will be catered for
 * [title.ratings](https://datasets.imdbws.com/title.ratings.tsv.gz)
 
 <hr>
+
 ##  Data Exploration
+
 ### Jupyter
+
 Notebook ./notebooks/explorer.ipynb
 The notebook opens all (pre-downloaded) files from the ./data folder, loads to a pandas dataframe and preview
 > Only the below data-sets will be required for this project:
 > title.rating + title.basics
 
 <hr>
+
 ## Classes
 The below classes are provided:
+
 ### MovieData
 Base Class for all Movie Data.  It provides functionality to:
 1.  Download data to local
@@ -60,6 +67,7 @@ This class extends MovieData.  Functionality is added to rank the movies based o
 #### Methods
 
 <hr>
+
 ## Unit Tests
 1. test_file_download.py:  Files are opened from local disc - the option is provided to download the latest version of the file. This test case will test the file download
 3. test_load_data.py:  Test loading data from disc an display
@@ -67,8 +75,10 @@ This class extends MovieData.  Functionality is added to rank the movies based o
 5. test_top_titles.py: Load top n titles and display
 
 <hr>
+
 ## Execution
 
 <hr>
+
 ## Execution: Jupyter
 
