@@ -51,6 +51,13 @@ This class extends MovieData.  Functionality is added to rank the movies based o
 #### Methods
 
 <hr>
+## Unit Tests
+1. test_file_download.py:  Files are opened from local disc - the option is provided to download the latest version of the file. This test case will test the file download
+3. test_load_data.py:  Test loading data from disc an display
+4. test_ratings.py: Test ratings class: Load data, compute average, rank data, return top n records
+5. test_top_titles.py: Load top n titles and display
+
+<hr>
 ## Execution
 
 <hr>
