@@ -36,7 +36,11 @@ The notebook opens all (pre-downloaded) files from the ./data folder, loads to a
 ## Classes
 The below classes are provided:
 ### MovieData
-Base Class for all Movie Data.  This class will also be used for the "rated" titles
+Base Class for all Movie Data.  It provides functionality to:
+1.  Download data to local
+2.  Open downloaded data an load to (instance) dataframa
+3.  Data is filtered on (after) load and filtered result is retained
+This class will also be used as a contained for the "top ranked" titles
 
 #### Constructor
 
@@ -45,6 +49,11 @@ Base Class for all Movie Data.  This class will also be used for the "rated" tit
 ### Ratings
 This class extends MovieData.  Functionality is added to rank the movies based on the provided formula
 > (numVotes / averageNumberOfVotes) * averageRating
+
+1. Inherited functionality from base (MovieData)
+2. Compute Average (mean) rating for loaded data-set
+3. Rank data
+4. Rreturn top-n records
 
 #### Constructor
 
